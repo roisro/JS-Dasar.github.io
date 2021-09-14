@@ -23,11 +23,14 @@
 
     //1/ for loop
     //for (Mulai; sampai/syarat; perpindahan)
-    var x=1;
-
-    for (x; x<5; x++){
-     alert(x);
+    var i=0;
+    var text="";
+    //syarat || Sampai
+    while (i<5){
+        text +="<br/>Angkanya Adalah " +i;
+        i++;
     }
+    document.getElementById('wrap').innerHTML=text;
     
 </script>
 </body>
