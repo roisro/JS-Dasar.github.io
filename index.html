@@ -11,9 +11,6 @@
             background: blue;
             color: white;
             font-size: 25px;
-            margin-left: 15px;
-            margin-right: 70%;
-            padding-left: 170px;
         }
     </style>
 </head>
@@ -22,13 +19,14 @@
     <div id="wrap"></div>
 
 <script>
-    // fungsi
-    function printText() {
-        alert("Selamat Datang !");
-        document.getElementById("wrap").innerHTML = "Sekolah Koding";
-    }
-    
-    printText();
+
+    // parameter pada fungsi
+    var kotak = ["Hilman", "Endy","Tiqa"]; 
+
+    var text = "Namanya adalah "+kotak[2];
+
+        document.getElementById("wrap").innerHTML = text;
+   
     
 </script>
 </body>
