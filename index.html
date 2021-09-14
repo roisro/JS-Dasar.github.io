@@ -21,13 +21,16 @@
 <script>
 
     // Menggabungkan Array
-    var x=["Jesie","Lim Kheng"];
-    var y=["Rois Joe Liem","Grace Natalie Pusvie"];
-    var z=["Uli","Albab"];
+    var x=1500;
+    var y=2000;
+    var z=1500;
 
-    var total=x.concat(y,z);
-
-        document.getElementById("wrap").innerHTML = total.join(" | ");
+    if (x == y  || x==z){
+        document.getElementById("wrap").innerHTML = "Sama";
+    }else{
+        alert("Tidak Sama")
+    }
+        
         //Length =  untuk mengetahui jumlah data
    
     
