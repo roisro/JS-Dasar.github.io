@@ -19,21 +19,32 @@
     <div id="wrap"></div>
 
 <script>
+     // Menggabungkan Array
+     var x="Roisro35";
+  
+  //switch case
+  switch(x){
 
-    // Menggabungkan Array
-    var x=1500;
-    var y=2000;
-    var z=1500;
+      case "Endy":
+          alert("Namanya Adalah Endy");
+      break;
 
-    if ( x==y){
-        document.getElementById("wrap").innerHTML = "OK1";
-    }else if(y==z){
-        document.getElementById("wrap").innerHTML = "OK2";
-    }else if(z==y){
-        document.getElementById("wrap").innerHTML = "OK3";
-    }else{
-            alert("Tidak Sama");
-    }
+      case "Mirna":
+          alert("Namanya NNa");
+      break;
+
+      case "Jessie":
+          alert("Namanya JJes");
+      break;
+
+      case x:
+      document.getElementById("wrap").innerHTML = x+" Creation";
+      break;
+
+      default:
+          alert("Data tidak tercatat")
+  }
+
 
 
     
